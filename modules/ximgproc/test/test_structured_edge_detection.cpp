@@ -5,7 +5,7 @@
 
 namespace opencv_test { namespace {
 
-TEST(ximgproc_StructuredEdgeDetection, regression)
+TEST(ximpgroc_StructuredEdgeDetection, regression)
 {
     cv::String subfolder = "cv/ximgproc/";
     cv::String dir = cvtest::TS::ptr()->get_data_path() + subfolder;
